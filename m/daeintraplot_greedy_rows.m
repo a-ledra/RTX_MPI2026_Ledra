@@ -1,5 +1,5 @@
 tic; getfaithful(h,10,512,-3); toc
-%%
+%
 %{
 daeintraplot_greedy_rows.m
 
