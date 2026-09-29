@@ -1,4 +1,4 @@
-
+ 
 % check_all_hadamard_rows.m
 % Runs the full pipeline for every Hadamard row and summarizes results.
 
