@@ -15,11 +15,6 @@ Communication Toolbox and the Curve Fitting Toolbox.
 Requires select_quantile_rows.m to be on the MATLAB path (e.g., in the same
 folder as this file).
 
-Based on daeintraplot.m, last modified by David A. Edwards on 6/25/26.
-Modified by Adri to test select_quantile_rows.m, 9/17/26.
-%}
-
-% Clear all variables from previous runs.
 clear all
 
 % This command preserves the kernel state upon bugs.
