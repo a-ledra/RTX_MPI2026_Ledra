@@ -1,6 +1,6 @@
 % check_all_hadamard_rows_by_sequency.m
 % Runs the pipeline for every Hadamard row ordered by sequency.
-
+ 
 N = 16;                    % Hadamard order (multiple of 4)
 H = hadamard(N);
 samplesPerChip = 20;
