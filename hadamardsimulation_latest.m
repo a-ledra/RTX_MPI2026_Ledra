@@ -6,7 +6,7 @@ function run_hadamard_realworld_fixed()
     fc = 10;
     snr_values = [-3, 0, 3, 5, 8, 10, 12, 15];
     numTrials = 20;
-
+ 
     %% Generate codes
     H = hadamard(N);
     walshScore = sum(abs(diff(H,1,2)), 2) / 2;
