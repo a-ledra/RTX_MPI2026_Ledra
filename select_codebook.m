@@ -1,4 +1,4 @@
-function codebook = select_codebook(feasible, nSelect, method)
+function codebook = select_codebook(feasible, nSelect, method) 
 %SELECT_CODEBOOK Choose a codebook from the faithful set with any of six algorithms.
 %   CODEBOOK = SELECT_CODEBOOK(FEASIBLE, NSELECT, METHOD) picks NSELECT rows
 %   from the vector FEASIBLE of faithful row indices (Walsh scores) and
