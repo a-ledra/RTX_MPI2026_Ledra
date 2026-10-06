@@ -1,4 +1,4 @@
-function [selTbl, finalIdx] = select_quantile_rows(T, nSelect, topCandidates, rankCol)
+function [selTbl, finalIdx] = select_quantile_rows(T, nSelect, topCandidates, rankCol) 
 %SELECT_QUANTILE_ROWS Pick rows spread evenly across WalshScore quantiles.
 %   Selects NSELECT rows from the TOPCANDIDATES highest-ranked rows of table
 %   T (ranked by RANKCOL, descending), spacing the selection evenly across
