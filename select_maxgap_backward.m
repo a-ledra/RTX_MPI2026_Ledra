@@ -1,4 +1,4 @@
-function [finalIdx, bestGap] = select_maxgap_backward(feasible, nSelect)
+function [finalIdx, bestGap] = select_maxgap_backward(feasible, nSelect) 
 %SELECT_MAXGAP_BACKWARD Pick codebook rows with Lawan's Backward Max-Gap algorithm.
 %   Chooses NSELECT faithful Walsh rows by maximizing the minimum sequency
 %   gap between chosen rows. A binary search finds the largest integer gap
