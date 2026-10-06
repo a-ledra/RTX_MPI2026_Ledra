@@ -1,7 +1,7 @@
 function [selTbl, finalIdx] = select_greedy_rows(T, nSelect, topCandidates, rankCol)
 %SELECT_GREEDY_ROWS Pick rows via greedy farthest-point sampling on WalshScore.
 %   Selects NSELECT rows from the TOPCANDIDATES highest-ranked rows of table
-%   T (ranked by RANKCOL, descending), starting from the top-ranked candidate
+%   T (ranked by RANKCOL, descending), starting from the top-ranked candidate 
 %   and repeatedly adding whichever remaining candidate is farthest (in
 %   WalshScore) from everything already chosen. This tends to spread
 %   selections more aggressively toward the extremes than quantile binning.
