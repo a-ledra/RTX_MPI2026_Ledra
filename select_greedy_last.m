@@ -1,4 +1,4 @@
-function finalIdx = select_greedy_last(feasible, nSelect)
+function finalIdx = select_greedy_last(feasible, nSelect) 
 %SELECT_GREEDY_LAST Pick codebook rows with Dr. Edwards' "Greedy Last" algorithm.
 %   Starting from the largest feasible Walsh score and working downward,
 %   repeatedly chooses the feasible entry that is at an odd distance below
