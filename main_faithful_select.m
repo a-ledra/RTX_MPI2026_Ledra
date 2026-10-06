@@ -1,5 +1,5 @@
 %{
-main_faithful_select.m
+main_faithful_select.m 
 
 One main code that finds the faithful (feasible) set and then selects a
 codebook from it with whichever algorithm you choose.  Set the parameters
