@@ -4,7 +4,7 @@ function finalIdx = select_greedy_first(feasible, nSelect)
 %   repeatedly chooses the feasible entry that is at an odd distance below
 %   the last pick and at least OPTDIS away from it, where
 %   OPTDIS = last/(j-1/2) (the basin-of-attraction spacing). If no entry
-%   qualifies, OPTDIS is reduced by 1 and the search is repeated.
+%   qualifies, OPTDIS is reduced by 1 and the search is repeated. 
 %
 %   FINALIDX = SELECT_GREEDY_FIRST(FEASIBLE) selects 16 rows.
 %
